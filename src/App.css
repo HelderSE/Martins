@@ -1,0 +1,12 @@
+
+.App {
+  min-height: 100vh;
+
+  background-color: rgb(37, 58, 173);
+  display: flex;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+}
+

@@ -1,0 +1,33 @@
+.Link{ 
+    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    display: flex;
+    margin: 0px;
+    min-height: 50vh;
+    padding: 10px;
+    border: solid;
+    border-width: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    -moz-text-size-adjust: auto;
+  }
+  
+  #Padaria{
+    color:#38dae6;
+    background-image:url("./Images/Padaria.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  #Caixa{
+    color:rgb(73, 231, 33);
+    background-image:url("./Images/Box.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
