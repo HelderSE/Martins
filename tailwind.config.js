@@ -4,11 +4,12 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "pattern-background": "url('../../public/img/patbg.png')",
-        "background-light": "url('../../public/img/coffeelight.png')",
+        "home-page": "url('../public/images/Martins.jpg')",
+        "padaria-i": "url('../public/images/Padaria.jpg')",
+        "caixa-i": "url('../public/images/Caixa.jpg')",
+        "queijo-i": "url('../public/images/cheese.jpg')",
+        "chourico-i": "url('../public/images/chourizo.jpg')",
+        "chourico-e-queijo": "url('../public/images/chourico-e-queijo.jpg')",
       },
       keyframes: {
         marquee: {

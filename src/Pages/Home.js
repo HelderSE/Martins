@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Button = ({ link }) => {
   return (
     <Link
-      className="bg-green-100 w-[50%] flex justify-center items-center h-[3rem] rounded-full"
+      className="bg-green-300 my-10 border w-[100%] flex justify-center items-center h-[3rem] rounded-full"
       to={`/${link}`}
     >
       {link}
@@ -14,9 +14,13 @@ const Button = ({ link }) => {
 
 const Home = () => {
   return (
-    <div className="bg-red-500 flex flex-col gap-2 justify-center items-center h-[100vh] ">
-      <Button link="Padaria"></Button>
-      <Button link="Caixa"></Button>
+    <div className="bg-home-page bg-cover flex flex-col gap-[2rem] justify-center items-center h-[100vh] ">
+      <div className="w-[40vh] h-[40vh] border-2 bg-padaria-i bg-no-repeat bg-cover flex flex-col justify-end">
+        <Button link="Padaria"></Button>
+      </div>
+      <div className="w-[40vh] h-[40vh] border-2 bg-caixa-i bg-no-repeat bg-cover flex flex-col justify-start">
+        <Button link="Caixa"></Button>
+      </div>
     </div>
   );
 };

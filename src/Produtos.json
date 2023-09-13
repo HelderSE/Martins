@@ -1,1 +1,8 @@
-["Queijo", "Chourico", "Chourico e Queijo"]
+[
+  {
+    "name": "queijo",
+    "img": "images/cheese.jpg"
+  },
+  { "name": "chourico", "img": "images/chourizo.jpg" },
+  { "name": "chourico-e-queijo", "img": "images/chourizo.jpg" }
+]

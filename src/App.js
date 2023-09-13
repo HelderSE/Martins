@@ -5,6 +5,16 @@ import Padaria from "./Pages/Padaria";
 import Caixa from "./Pages/Caixa";
 
 function App() {
+  /*const socket = new WebSocket("ws://localhost:8080");
+
+  socket.onmessage = ({ data }) => {
+    console.log("message from server ", data);
+  };
+
+  document.querySelector("button").onclick = () => {
+    socket.send("hello");
+  };
+*/
   return (
     <div className="App">
       <BrowserRouter>

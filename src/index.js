@@ -4,6 +4,15 @@ import "./index.css";
 import App from "./App";
 import { SoldProvider } from "./soldContext";
 
+/*const WebSocket = require("ws");
+const server = new WebSocket.Server({ port: "8080" });
+
+server.on("connection", (socket) => {
+  socket.on("message", (message) => {
+    socket.send("");
+  });
+});*/
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
