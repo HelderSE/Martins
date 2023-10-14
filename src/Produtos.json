@@ -1,8 +1,8 @@
 [
   {
     "name": "queijo",
-    "img": "images/cheese.jpg"
+    "img": "https://bordalo.observador.pt/v2/rs:fill:900/c:2908:1635:nowe:0:102/q:86/plain/https://s3.observador.pt/wp-content/uploads/2023/04/26151512/istock-168721897-1-1.jpg"
   },
   { "name": "chourico", "img": "images/chourizo.jpg" },
-  { "name": "chourico-e-queijo", "img": "images/chourizo.jpg" }
+  { "name": "chourico-e-queijo", "img": "images/chourico-e-queijo.jpg" }
 ]
